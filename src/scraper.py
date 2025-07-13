@@ -14,7 +14,7 @@ MAX_PAGES = 3
 
 def get_driver():
     options = uc.ChromeOptions()
-    options.add_argument("--headless=new")  # Comment this if you want to see the browser
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     driver = uc.Chrome(options=options)
