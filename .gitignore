@@ -1,0 +1,15 @@
+# Ignore browser driver
+src/chromedriver.exe
+
+# Bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+env/
+.venv/
